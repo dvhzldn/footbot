@@ -1,0 +1,55 @@
+{
+  "endpoints": {
+    "scoreboard": "https://...",
+    "event_summary": "https://...",
+    "fixture_channels": "https://...",
+    "goal_replays": "https://..."
+  },
+  "webhooks": {
+    "OTHER": "OTHER_WEBHOOK",
+    "GOALS": "GOALS_WEBHOOK",
+    "PREM": "PREM_WEBHOOK",
+    "FPL": "FPL_WEBHOOK",
+    "SCOT": "SCOT_WEBHOOK",
+    "UEFA": "UEFA_WEBHOOK",
+    "EURO": "EURO_WEBHOOK",
+    "LATAM": "LATAM_WEBHOOK",
+    "FIXTURES": "FIXTURES_WEBHOOK"
+  },
+  "leagues": {
+    "eng.1": { "webhook_key": "PREM", "fpl": true },
+    "uefa.champions": { "webhook_key": "UEFA", "fpl": false }
+  },
+  "players": {
+    "196176": "David Raya"
+  },
+  "settings": {
+    "live_interval": 12,
+    "idle_interval": 60,
+    "discord_workers": 4,
+    "send_delay": 0.2,
+    "details_concurrency": 6,
+    "replay_concurrency": 2,
+    "max_queue_size": 1000,
+    "boot_grace_period": 10,
+    "cleanup_interval": 30,
+    "match_expiry_seconds": 43200,
+    "sync_interval_live": 1800,
+    "sync_interval_idle": 300,
+    "daily_fixtures_hour": 9,
+    "loop_error_delay": 10,
+    "replay_delay": 45,
+    "replay_retry": 45,
+    "replay_jitter_min": 0.5,
+    "replay_jitter_max": 2.0
+  },
+  "colors": {
+    "default": 16777215,
+    "fpl_impact": 65280,
+    "match_report": 21930,
+    "log_entry": 3426654
+  },
+  "reddit": {
+    "video_domains": ["streamain"]
+  }
+}
